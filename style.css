@@ -1,0 +1,48 @@
+.inp{
+    margin: 0 auto;
+    width: 1000px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1500px;
+    min-height: 700px;
+    font-size: 50px;
+}
+.calc{
+    border: 10px solid red;
+    border-radius: 25px;
+    min-height: 700px;
+    width: 1000px;
+}
+.btn{
+    border-radius: 25px;
+    border: 1px solid rgb(47, 47, 106);
+    font-size: 50px;
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.07);
+    transition: 0.3s;
+}
+.btn:active{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.res{
+    width: 100%;
+    height: 200px;
+}
+.story{
+    font-size: 25px;
+    border: 10px solid blue;
+    border-radius: 25px;
+    width: 30%;
+    min-height: 700px;
+}
